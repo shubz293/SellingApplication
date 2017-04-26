@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.majorproject.groceryshopping.sellingapplication.FragmentMyItemsMainSeller">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Items"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/large_text_size"
+        android:gravity="center"
+        android:padding="@dimen/button_padding"
+        android:background="@color/interfaceColor"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_my_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_lite">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+        <ProgressBar
+            android:id="@+id/myItemProgressBar"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:background="@color/transparent_lite"
+            android:indeterminateDrawable="@drawable/progress_circular"
+            android:max="100"
+            android:progress="20"
+            />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

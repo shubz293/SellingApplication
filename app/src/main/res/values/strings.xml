@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Seller Application</string>
+
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="save">Save</string>
+    <string name="title_activity_main_seller">MainSellerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="main_store_view_item_button">View Items</string>
+    <string name="main_store_my_account_button">My Account</string>
+    <string name="main_store_add_item_button">Add Item</string>
+    <string name="main_store_view_order_button">View Orders</string>
+    <string name="welcome_home_main_seller">Welcome to Seller Application</string>
+    <string name="my_account_update_profile_button">Update Details</string>
+    <string name="my_account_change_password_button">Change Password</string>
+
+    <string name="html_faq">
+        <![CDATA[
+
+        <html>
+        <body>
+        <h2>Major Project</h2><br><ul>
+        <li><h3>Frontend</h3><br><ul><li>
+            Android SDK is used of frontend.</li></ul>
+        </li>
+        <li><h3>Backend</h3><br><ul><li>
+            Google Firebase is used for backend.</li></ul>
+        </li>
+        </ul>
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="no_image_url"><![CDATA[
+    https://firebasestorage.googleapis.com/v0/b/shopping-application-project.appspot.com/o/items%2FNo_image_available.png?alt=media&token=f7946d84-d169-4fd7-97ec-5e8afa0e0c67
+]]></string>
+
+    <string name="share_message">Hey try this new Application..!!!</string>
+    <string name="share_subject" id="share_subject">"New Application I found"</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="item_name">Item Name</string>
+    <string name="no_offer_disclamer">If no discount offered leave it blank</string>
+    <string name="offer_discount">Offer discount</string>
+    <string name="market_price">Market Price</string>
+    <string name="add_item">Add Item</string>
+    <string name="firebase_items_subclass">items</string>
+    <string name="firebase_itemID">itemID</string>
+    <string name="firebase_seller_subclass">Seller</string>
+    <string name="firebase_itemImage_subclass">items</string>
+    <string name="firebase_order_subclass">Order</string>
+    <string name="firebase_orderID">orderID</string>
+    <string name="name">Name</string>
+    <string name="price">price</string>
+    <string name="offer">offer</string>
+    <string name="image">Image</string>
+
+
+</resources>

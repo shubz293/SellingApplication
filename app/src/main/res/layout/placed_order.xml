@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:paddingStart="@dimen/layout_padding"
+    android:paddingEnd="@dimen/layout_padding"
+    android:paddingTop="@dimen/layout_padding"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/placed_order_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/layout_padding"
+            android:background="@drawable/fragment_background"
+            >
+
+            <!-- horizontal component -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <!-- name -->
+                <TextView
+                    android:id="@+id/card_view_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/layout_padding"
+                    android:paddingEnd="@dimen/layout_padding"
+                    android:text="Name"
+                    android:textSize="@dimen/normal_text_size"
+                    />
+
+                <!-- address -->
+                <TextView
+                    android:id="@+id/card_view_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/layout_padding"
+                    android:paddingEnd="@dimen/layout_padding"
+                    android:text="Address"
+                    />
+
+            </LinearLayout>
+
+            <!-- vertical component -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <!-- itemcount -->
+                <TextView
+                    android:id="@+id/card_view_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="@dimen/layout_padding"
+                    android:paddingEnd="@dimen/layout_padding"
+                    android:text="Item Count"
+                    android:layout_alignParentStart="true"/>
+
+                <!-- price -->
+                <TextView
+                    android:id="@+id/card_view_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="price"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

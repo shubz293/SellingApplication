@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/interfaceColor"
+    android:padding="@dimen/layout_padding"
+    android:orientation="vertical"
+    tools:context="com.majorproject.groceryshopping.sellingapplication.FragmentHomeMainStore">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/layout_padding"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/nav_header_icon_size"
+            android:layout_height="@dimen/nav_header_icon_size"
+            android:background="@drawable/image_circle_background"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:scaleType="centerInside"
+            android:padding="@dimen/image_backgroung_padding"
+            android:src="@drawable/selling_cart" />
+
+        <TextView
+            android:id="@+id/header_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:textSize="20sp"
+            android:text="@string/welcome_home_main_seller"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:padding="@dimen/layout_padding"
+        android:background="@drawable/fragment_background"
+        >
+
+
+        <Button
+            android:id="@+id/button_add_item"
+            android:text="@string/main_store_add_item_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="@dimen/layout_padding"
+            />
+
+
+        <Button
+            android:id="@+id/button_view_item"
+            android:text="@string/main_store_view_item_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="@dimen/layout_padding"
+            />
+
+        <Button
+            android:id="@+id/button_my_account"
+            android:text="@string/main_store_my_account_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="@dimen/layout_padding" />
+
+        <Button
+            android:id="@+id/button_view_order"
+            android:text="@string/main_store_view_order_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="@dimen/layout_padding" />
+
+
+
+    </GridLayout>
+
+</LinearLayout>

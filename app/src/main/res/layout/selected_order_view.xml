@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/view_order_linear_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/interfaceColor"
+    android:padding="@dimen/layout_padding">
+
+    <!-- Top part -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/layout_padding"
+            >
+
+                <!-- horizontal view -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/view_order_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Name"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:id="@+id/view_order_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Customer Address"
+                    android:textSize="@dimen/normal_text_size"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="@dimen/layout_padding"
+                    />
+
+                    <!-- total  price -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/view_order_total"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:padding="@dimen/layout_padding"
+                            android:text="Total"
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/colorAccent"/>
+
+                        <TextView
+                            android:id="@+id/view_order_price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:padding="@dimen/layout_padding"
+                            android:text="Price"
+                            android:textSize="@dimen/normal_text_size"
+                            android:textColor="@color/colorAccent"/>
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <!-- recycler view -->
+        <RelativeLayout
+            android:layout_below="@id/relative_layout"
+            android:id="@+id/relative_layout_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/view_order_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/recycler_view_background"
+            android:padding="@dimen/button_padding"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+        </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <!-- Bottom part -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/view_order_back_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Back"
+                android:background="@color/transparent"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentStart="true"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/view_order_complete_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:text="Complete Order"
+                android:background="@color/transparent"
+                android:textColor="@color/colorAccent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "889431483729",
+    "firebase_url": "https://shopping-application-project.firebaseio.com",
+    "project_id": "shopping-application-project",
+    "storage_bucket": "shopping-application-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889431483729:android:a291183838981c37",
+        "android_client_info": {
+          "package_name": "com.majorproject.groceryshopping.shoppingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889431483729-9d0pshagvj3gb8hfm26uck7codnskc31.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.majorproject.groceryshopping.shoppingapplication",
+            "certificate_hash": "4e2e4e4a30a641d672cce0fa02c77ca6fd515654"
+          }
+        },
+        {
+          "client_id": "889431483729-f7kqpa6gq4p76upkvnrvsnpurg584hv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP5gF9Wh4fuMiwdSG2EEbd4kqqZ4LwGLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889431483729-f7kqpa6gq4p76upkvnrvsnpurg584hv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889431483729:android:82a34cfac31c37a0",
+        "android_client_info": {
+          "package_name": "com.majorproject.groceryshopping.sellingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889431483729-5gpf3iu4t5g3r6be4l6aje6ea739o6v3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.majorproject.groceryshopping.sellingapplication",
+            "certificate_hash": "4e2e4e4a30a641d672cce0fa02c77ca6fd515654"
+          }
+        },
+        {
+          "client_id": "889431483729-f7kqpa6gq4p76upkvnrvsnpurg584hv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP5gF9Wh4fuMiwdSG2EEbd4kqqZ4LwGLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889431483729-f7kqpa6gq4p76upkvnrvsnpurg584hv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

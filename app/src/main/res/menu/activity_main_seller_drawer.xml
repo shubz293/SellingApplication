@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_main_store"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_item_list_main_store"
+            android:title="My Items" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_settings_main_store"
+            android:title="My Account" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_main_store"
+            android:title="Logout" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@drawable/ic_faq_main_store"
+                android:title="F.A.Q." />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share_main_store"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/layout_padding"
+    android:background="@color/interfaceColor"
+    tools:context="com.majorproject.groceryshopping.sellingapplication.ProfileUpdateFragment">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="false"
+            android:background="@drawable/fragment_background"
+            >
+
+            <TextView
+                android:text="Enter your Details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_background"
+                android:padding="@dimen/button_padding"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textSize="@dimen/large_text_size"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:textColor="@color/colorAccent"
+                android:layout_margin="@dimen/button_margin_top"
+                />
+
+            <EditText
+                android:id="@+id/editTextUpdateName"
+                android:inputType="textPersonName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Store Name"
+                android:background="@drawable/edit_text_background_on_white"
+                android:padding="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/editTextUpdateContact"
+                android:inputType="phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Phone Number"
+                android:background="@drawable/edit_text_background_on_white"
+                android:padding="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textAlignment="center"
+                />
+            <EditText
+                android:id="@+id/editTextUpdateAddress"
+                android:inputType="textPostalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your Store Address"
+                android:background="@drawable/edit_text_background_on_white"
+                android:padding="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                >
+            <Button
+                android:id="@+id/button_saveUpdate"
+                android:text="@string/save"
+                android:layout_width="@dimen/button_width"
+                android:layout_height="wrap_content"
+
+                android:padding="@dimen/button_padding"
+                android:layout_margin="@dimen/button_margin_top"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/button_background"
+                android:textSize="@dimen/button_text_size"
+
+                android:textAlignment="center"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_gravity="center_horizontal|center_vertical"
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="interfaceColor">#03a9f4</color> //color for the interface
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00123456</color>
+    <color name="transparent_dark" >#8d000000</color>
+    <color name="transparent_lite">#7dededed</color>
+
+
+    <color name="colorPrimary">@color/interfaceColor</color>
+    <color name="colorPrimaryDark">@color/interfaceColor</color>
+    <color name="navBarColor">@color/interfaceColor</color>
+    <color name="colorAccent">@color/white</color>
+
+    <color name="main_store_header_end">@color/interfaceColor</color>
+    <color name="main_store_header_center">#03a9f4</color>
+    <color name="main_store_header_start">#03a9f4</color>
+
+
+    <color name="icon_app_bar_main_store" >#a5000000</color>
+    <color name="fragment_background">#ffffff</color>
+
+
+    <color name="button_background_color">#FCCF27</color>
+
+</resources>
